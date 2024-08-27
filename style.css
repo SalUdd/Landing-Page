@@ -1,0 +1,219 @@
+* {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: auto;
+    box-sizing: border-box;
+    
+}
+body   {
+    background-color: #1f2937;
+    margin: 0;
+
+}
+html{
+    margin: 0;
+
+}
+header {
+    display: flex;
+    justify-content: flex-start; 
+    width: min(80%, 1440px); 
+    align-items: center;    
+    margin-inline: auto; 
+    gap: 35px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 30px;
+}
+
+.link   {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.logo  {
+    margin-right:auto;
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#hero {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 80px 80px;
+    color: white;
+    gap: 75px;
+    
+}
+
+
+.hero-sec-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 750px;
+    flex-wrap: wrap;
+}
+
+.hero-sec-1 h1{
+    margin: 0;
+    width: 350px;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hero-sec-1 p{
+    margin-top: 2px;
+    margin-bottom: 5px;
+    width: 450px;
+    font-size: 18px;
+}
+
+.hero-sec-1 button{
+    background-color: #3882f6;
+    border-color: #3882f6;
+}
+
+.hero-sec-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 200px; /* Vertically center the alt text */
+}
+
+.hero-sec-2 img{
+    width: 500px;
+    height: 200px;
+    background-color: lightgray;
+}
+
+
+.sectionOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+    background-color: white;
+    flex-wrap: wrap;
+}
+.head {
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+.box-flex1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    flex-wrap: wrap;
+
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    padding-bottom: 25px;
+}
+.block img{
+    color: black;
+    border: 2px solid;
+    border-color: #3882f6;
+    background-color: transparent;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+.block p {
+    margin-top: 5px;
+}
+
+#section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px;
+    background-color: #E5e7eb;
+    flex-wrap: wrap;
+}
+
+.section2-child {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: auto;
+}
+
+.section2-child p{
+    margin: 0;
+}
+
+.section2-child h4{
+    margin: 0;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;   
+    font-weight: lighter;
+}
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: White;
+}
+
+.cta-content{
+    background-color: #3882f6;
+    width: min(80%, 1440px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 3% 1%;
+    gap:40%;
+}
+
+.cta-con-flexCol h4{
+    margin: 0;
+    color: white;
+}
+
+.cta-con-flexCol p{
+    margin: 0;
+    color: white;
+}
+
+.cta-con-flexCol {
+    display: flex;
+    flex-direction: column;
+}
+
+
+button {
+    padding: 5px 30px; /* Adds padding to the button */
+    border: 2px solid white; /* To match the outlined button in the image */
+    color: white; /* Button text color */
+    background-color: transparent;
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    align-content: center;
+    justify-content: center;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    color: #E5E7EB;
+    background-color: #1f2937;
+}
